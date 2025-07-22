@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom'
 
-function ProductCard({name, description, tools, wins, slug}) {
+function ProductCard({name, description, tools, wins}) {
     return (
         <div className="product-card">
             <h2>
-                <Link to={`/products/${slug}`}>
-                    {name}
-                </Link>
+                {name}
             </h2>
             <h5><strong>What is it?</strong> {description}</h5>
             <h6><strong>Primary tool used:</strong> {tools}</h6>
@@ -16,3 +14,10 @@ function ProductCard({name, description, tools, wins, slug}) {
 }
 
 export default ProductCard;
+
+/*
+<Link to={`/products/${slug}`}>
+                    {name}
+                </Link>
+
+*/
