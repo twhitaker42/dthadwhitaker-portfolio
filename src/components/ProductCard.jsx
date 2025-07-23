@@ -1,7 +1,7 @@
 function ProductCard({name, description, tools, wins, slug}) {
     return (
         <div className="product-card">
-            <h2><a href={`/products/${slug}/index.html`} target="_blank" rel="noopener noreferrer">
+            <h2><a href={`/products/${slug}/index.html`}>
                 {name}
             </a></h2>
             <h5><strong>What is it?</strong> {description}</h5>
