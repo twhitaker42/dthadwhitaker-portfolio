@@ -14,6 +14,7 @@ function ProductPage() {
                         tools = {products.tools}
                         wins = {products.wins}
                         slug = {products.slug}
+                        image = {products.image}
                     />
                 ))}
             </div>

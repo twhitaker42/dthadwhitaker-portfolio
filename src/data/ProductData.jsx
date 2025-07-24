@@ -4,14 +4,16 @@ const products = [
     description: "Provides employers or others a glimpse into me and my products",
     tools: "React",
     wins: "Translate personal Front-End learnings to a webpage",
-    slug: ".."
+    slug: "https://dthadwhitaker.com",
+    image: "my-portfolio"
   },
   {
     name: "Euchre App",
     description: "Enables those learning Euchre to quickly learn the rules and basic strategy, understand the trump order, plus scoring games",
     tools: "Bolt.new",
     wins: "Translate personal Front-End learnings to a webpage",
-    slug: "euchre-app"
+    slug: "euchre-app",
+    image: "euchre-app"
   },
   /* {
     name: "Ford 'How to use' education",
