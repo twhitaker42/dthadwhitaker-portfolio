@@ -44,6 +44,7 @@
 html, body, #root {
   margin: 0;
   padding: 0;
+  background-color: rgb(197, 210, 246);
 }
 
 .app-wrapper {
@@ -72,7 +73,7 @@ html, body, #root {
 }
 
 .product-card {
-  background-color: #77B2D4;
+  background-color: #FFF;
   border-radius: 20px;
   min-height: 300px;
   margin-top: 20px;

@@ -9,7 +9,6 @@ function ProductCard({ name, description, tools, wins, slug, image }) {
             <h2>{name}</h2>
             <h5><strong>What is it?</strong> {description}</h5>
             <h6><strong>Primary tool used:</strong> {tools}</h6>
-            <h6><strong>Key wins:</strong> {wins}</h6>
         </>
     );
 
@@ -18,9 +17,9 @@ function ProductCard({ name, description, tools, wins, slug, image }) {
             {cardContent}
         </a>
     ) : (
-        <Link to={`/products/${slug}/index.html`} className="product-card">
+        <a href={`/products/${slug}`} className="product-card">
             {cardContent}
-        </Link>
+        </a>
     );
 }
 

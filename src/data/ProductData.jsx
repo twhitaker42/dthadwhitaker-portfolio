@@ -3,7 +3,6 @@ const products = [
     name: "My Portfolio",
     description: "Provides employers or others a glimpse into me and my products",
     tools: "React",
-    wins: "Translate personal Front-End learnings to a webpage",
     slug: "https://dthadwhitaker.com",
     image: "my-portfolio"
   },
@@ -11,8 +10,7 @@ const products = [
     name: "Euchre App",
     description: "Enables those learning Euchre to quickly learn the rules and basic strategy, understand the trump order, plus scoring games",
     tools: "Bolt.new",
-    wins: "Translate personal Front-End learnings to a webpage",
-    slug: "euchre-app",
+    slug: "euchre-app/index.html",
     image: "euchre-app"
   },
   /* {
