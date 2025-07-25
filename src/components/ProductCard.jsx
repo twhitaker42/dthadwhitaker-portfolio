@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom';
-
-function ProductCard({ name, description, tools, wins, slug, image }) {
+function ProductCard({ name, description, tools, slug, image, imageCreds }) {
     const isExternal = slug.startsWith('http');
 
     const cardContent = (
@@ -9,6 +7,8 @@ function ProductCard({ name, description, tools, wins, slug, image }) {
             <h2>{name}</h2>
             <h5><strong>What is it?</strong> {description}</h5>
             <h6><strong>Primary tool used:</strong> {tools}</h6>
+            <br></br>
+            <p>Image credits: {imageCreds}</p>
         </>
     );
 

@@ -4,14 +4,24 @@ const products = [
     description: "Provides employers or others a glimpse into me and my products",
     tools: "React",
     slug: "https://dthadwhitaker.com",
-    image: "my-portfolio"
+    image: "my-portfolio",
+    imageCreds: "Sweta Maturu"
   },
   {
     name: "Euchre App",
     description: "Enables those learning Euchre to quickly learn the rules and basic strategy, understand the trump order, plus scoring games",
     tools: "Bolt.new",
     slug: "euchre-app/index.html",
-    image: "euchre-app"
+    image: "euchre-app",
+    imageCreds: "Ben Rapin"
+  },
+  {
+    name: "Euchre App",
+    description: "Enables those learning Euchre to quickly learn the rules and basic strategy, understand the trump order, plus scoring games",
+    tools: "Bolt.new",
+    slug: "euchre-app/index.html",
+    image: "euchre-app",
+    imageCreds: "Ben Rapin"
   },
   /* {
     name: "Ford 'How to use' education",
@@ -23,7 +33,3 @@ const products = [
 ];
 
 export default products;
-
-/*
-How created (e.g., Bolt, myself, etc.), why created, problem solved (ideally), feedback, etc.
-*/

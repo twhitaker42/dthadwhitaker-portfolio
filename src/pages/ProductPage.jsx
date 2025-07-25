@@ -12,9 +12,9 @@ function ProductPage() {
                         name = {products.name}
                         description = {products.description}
                         tools = {products.tools}
-                        wins = {products.wins}
                         slug = {products.slug}
                         image = {products.image}
+                        imageCreds = {products.imageCreds}
                     />
                 ))}
             </div>
