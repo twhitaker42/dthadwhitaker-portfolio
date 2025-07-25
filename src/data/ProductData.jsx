@@ -15,14 +15,7 @@ const products = [
     image: "euchre-app",
     imageCreds: "Ben Rapin"
   },
-  {
-    name: "Euchre App",
-    description: "Enables those learning Euchre to quickly learn the rules and basic strategy, understand the trump order, plus scoring games",
-    tools: "Bolt.new",
-    slug: "euchre-app/index.html",
-    image: "euchre-app",
-    imageCreds: "Ben Rapin"
-  },
+
   /* {
     name: "Ford 'How to use' education",
     description: "Provides users with actionable instructions to utitilize subscriptions, removing education blocker, for more users to try services",
