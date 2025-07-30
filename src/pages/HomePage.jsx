@@ -6,7 +6,7 @@ function HomePage() {
             <h1>D. Thad Whitaker</h1>
             <img src={profilePic} alt="Logo" id="profilePic"/>
             <h3>Product manager, fledgling software <br></br>developer*, and life-long learner</h3>
-            <h5>This webpage is a work in progress, so some funkiness is expected at first. *Yes, I'm making this site myself using React.</h5>
+            <h5>This webpage is a work in progress as I learn React. *I'm making this myself!</h5>
         </>
     );
 }
