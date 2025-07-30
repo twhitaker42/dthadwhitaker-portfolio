@@ -1,14 +1,22 @@
+function HobbyCard({ name, description, goal, image, slug }) {
+    const isExternal = slug && slug.startsWith('http');
 
-function HobbyCard({company, title, bullet1, bullet2, bullet3}) {
-    return (
-        <div className="resume-card">
-            <h2>{company}</h2>
-            <h4>{title}</h4>
-            <ul>
-                <li>{bullet1}</li>
-                <li>{bullet2}</li>
-                <li>{bullet3}</li>
-            </ul>
+    const cardContent = (
+        <>
+            <img className="hobby-card-image" src={`/images/${image}.png`} alt={name} />
+            <h2>{name}</h2>
+            <h5>{description}</h5>
+            <h6><strong>Goal:</strong> {goal}</h6>
+        </>
+    );
+
+    return isExternal ? (
+        <a href={slug} className="hobby-card" rel="noopener noreferrer">
+            {cardContent}
+        </a>
+    ) : (
+        <div className="hobby-card">
+            {cardContent}
         </div>
     );
 }

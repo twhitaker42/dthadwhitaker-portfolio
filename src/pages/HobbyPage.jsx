@@ -1,9 +1,24 @@
+import HobbyCard from '../components/HobbyCard';
+import HobbyData from '../data/HobbyData';
+
 function HobbyPage() {
     return (
-        <h1>Hobby Test</h1>
-
-        //I want to have cards with some of the hobbies I'm doing, e.g., pottery, running/map, knitting plus maybe goals/tracking
+        <>
+            <h1>Personal Hobbies</h1>
+            <div className='hobby-grid'>
+                {HobbyData.map((hobbies, index) => (
+                    <HobbyCard
+                        key = {index}
+                        name = {hobbies.name}
+                        description = {hobbies.description}
+                        goal = {hobbies.goal}
+                        image = {hobbies.image}
+                        slug = {hobbies.slug}
+                    />
+                ))}
+            </div>
+        </>
     );
 }
 
-export default HobbyPage;
+export default HobbyPage

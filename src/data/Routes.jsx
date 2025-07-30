@@ -9,7 +9,7 @@ const routes = [
   { path: '/', name: 'Home', element: <HomePage />, showInNav: true},
   { path: '/products', name: 'Products', element: <ProductPage />, showInNav: true},
   { path: '/resume', name: 'Resume', element: <ResumePage />, showInNav: false},
-  { path: '/hobbies', name: 'Hobbies', element: <HobbyPage />, showInNav: false},
+  { path: '/hobbies', name: 'Hobbies', element: <HobbyPage />, showInNav: true},
 ];
 
 export default routes;
